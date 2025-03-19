@@ -54,12 +54,7 @@ MobileInsight-core/examples/
 
 ### Step-by-step Guide
 
-1. Go to below Directory
-```
-cd ~/mi-dev/mobileinsight-core
-```
-
-2. Replay logs and generate JSON output:
+1. Replay logs and generate JSON output:
 
 ```
 python3 /home/vagrant/mi-dev/mobileinsight-core/examples/lte_phy_pusch_log_example.py ./<path-to-logfile>.mi2log
@@ -70,7 +65,7 @@ python3 /home/vagrant/mi-dev/mobileinsight-core/examples/lte_rlc_am_pdu_example.
 
 This generates structured JSON logs in the `output/` folder.
 
-3. Perform Data Analysis:
+2. Perform Data Analysis:
 
 ```
 python analyze.py
