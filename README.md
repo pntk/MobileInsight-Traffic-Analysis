@@ -54,11 +54,18 @@ MobileInsight-core/examples/
 
 ### Step-by-step Guide
 
+```
+cd ~/mi-dev/mobileinsight-core
+./install-ubuntu.sh
+```
+
 1. Replay logs and generate JSON output:
 
 ```
-python examples/lte_rlc_am_pdu_example.py
-python examples/lte_phy_pusch_log_example.py
+python3 /home/vagrant/mi-dev/mobileinsight-core/examples/lte_phy_pusch_log_example.py ./<path-to-logfile>.mi2log
+
+python3 /home/vagrant/mi-dev/mobileinsight-core/examples/lte_rlc_am_pdu_example.py ./<path-to-logfile>.mi2log
+
 ```
 
 This generates structured JSON logs in the `output/` folder.
